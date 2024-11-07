@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0b0b;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #363636;
+
+    & ul {
+        display: flex;
+    }
+
+    & form {
+        display: flex;
+        padding: 10px;
+    }
+
+    & li {
+        padding: 10px;
+        list-style: none;
+        color: #ffffff;
+    }
+ 
+    & .link-menu {
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    & .link-menu:hover {
+        background-color: #0b0b0b;
+        color: #ffffff;
+    }
+
+    & .link-menu:visited {
+        color: #ffffff;
+    }
+
+    & #btn-pesquisa {
+        border: solid 1px #ffffff;
+        color: #0b0b0b;
+        background-color:#696969;
+    }
+}
+
+.logo{
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    & h1 {
+        padding-top: 120px;
+    }
+
+    & .h1-1 {
+        color: #ffffff;
+        font-size: 200%;
+    }
+
+    & .h1-2 {
+        color: #ffffff;
+        font-size: 420%;
+    }
+    
+    & img {
+        border: 2px white solid;
+        border-radius: 8px;
+    }
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 24px;
+}
+
+p {
+    padding-top: 32px;
+    margin-inline: 24px;
+    color: #ffffff;
+}
+
+#form-material {
+    padding-top: 12px;
+    margin-inline: 24px;
+}
+
+#lbl-material {
+    padding-block: 10px;
+    padding-left: 5px;
+    padding-right: 80px;
+
+}
+
+#btn-material {
+    padding-block: 10px;
+    padding-inline: 5px;
+    background-color: #696969;
+    color: #ffffff;
+    border: #ffffff 2px solid;
+}
+
+#praticas {
+    color: #ffffff;
+    margin-inline: 48px;
+}
+
+#tabela {
+    margin-top: 48px;
+    margin-inline: 24px;
+    background-color: #ffffff;
+    
+    & th {
+        border: #0b0b0b 1px solid;
+        padding: 10px;
+    }
+
+    & td {
+        border: #0b0b0b 1px solid;
+        padding: 10px;
+    }
+}
